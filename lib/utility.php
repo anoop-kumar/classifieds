@@ -8,4 +8,18 @@ function myfeed_request($qv) {
 }
 add_filter('request', 'myfeed_request');
 
+/// Debugger 
+
+if(!function_exists("pq_debug")){
+	function pq_debug($var, $exit = true){
+		if(is_array($var) || is_object($var)){
+			echo "<pre>"; print_r($var); echo "</pre>";
+		}else{
+			echo $var;
+		}
+		if($exit){
+			exit();
+		}
+	}
+}
 ?>

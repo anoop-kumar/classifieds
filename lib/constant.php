@@ -49,4 +49,7 @@
 	if(!defined('ORDER_TRANSACTION_TABLE'))
 		define('ORDER_TRANSACTION_TABLE',$wpdb->prefix."order_transaction");
 	
+	if(!defined('CITY_TABLE'))
+		define('CITY_TABLE',$wpdb->prefix."cities");
+	
 ?>

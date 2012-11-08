@@ -33,7 +33,7 @@ if(!defined('PQ_ROOT_PATH')){
 // Adding all the required file
 require(PQ_ROOT_PATH."lib/constant.php");
 require(PQ_ROOT_PATH."lib/custom_post.php");
-require(PQ_ROOT_PATH."lib/custom_post_column.php");
+//require(PQ_ROOT_PATH."lib/custom_post_column.php");
 require(PQ_ROOT_PATH."lib/custom_post_metabox.php");
 require(PQ_ROOT_PATH."lib/save_custom_post.php");	
 require(PQ_ROOT_PATH."lib/routes.php");	
