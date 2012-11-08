@@ -36,7 +36,6 @@ require(PQ_ROOT_PATH."lib/custom_post.php");
 //require(PQ_ROOT_PATH."lib/custom_post_column.php");
 require(PQ_ROOT_PATH."lib/custom_post_metabox.php");
 require(PQ_ROOT_PATH."lib/save_custom_post.php");	
-require(PQ_ROOT_PATH."lib/routes.php");	
 require(PQ_ROOT_PATH."lib/db_tables.php");	
 
 /* Runs when plugin is activated */
